@@ -1,0 +1,288 @@
+@import url("./font.css");
+
+body {
+    background-image: url(../img/5555.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "MULT";
+    font-size: 30px;
+}
+
+p {
+    font-family: "m2";
+    font-size: 18px;
+    margin: 0;
+}
+
+.teremok img {
+    height: 650px;
+    width: 750px;
+    margin: 0;
+}
+
+.line {
+    display: flex;
+}
+
+a {
+
+    background-color: #0db84ef5;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "MULT";
+    color: black;
+    padding: 5px;
+    width: 300px;
+    border: solid 2px #000;
+    /* border-radius: 45%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+a:hover {
+    background-color: #0db84ef5;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: "MULT";
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 330px;
+    border: solid 2px #ffffff;
+    /* border-radius: 45%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+
+.zveri {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 12px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.zveri img {
+    height: 120px;
+    width: 120px;
+}
+
+.instrumenti img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+
+}
+
+.instrumenti {
+    margin: 150px;
+}
+
+#ball0 img {
+    height: 160px ;
+    width: 160px ;
+}
+
+#ball img {
+    height: 140px;
+    width: 140px;
+}
+
+#ball1 img {
+    height: 70px;
+    width: 70px;
+}
+
+#ball2 img {
+    height: 170px;
+    width: 170px;
+}
+
+#ball3 img {
+    height: 140px;
+    width: 140px;
+}
+
+#ball4 img {
+    height: 70px;
+    width: 70px;
+}
+
+#ball5 img {
+    height: 120px;
+    width: 120px;
+}
+
+#ball6 img {
+    height: 120px;
+    width: 120px;
+}
+
+
+@media (max-width:2560px) {
+    body {
+        background-image: url(../img/5555.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-family: "MULT";
+        font-size: 40px;
+    }
+
+    p {
+        font-family: "m2";
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .teremok img {
+        height: 900px;
+        width: 800px;
+        padding: 20px;
+
+    }
+
+    .line {
+        display: flex;
+    }
+
+    a {
+
+        background-color: #0db84ef5;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: "MULT";
+        color: black;
+        padding: 10px;
+        width: 400px;
+        border: solid 2px #000;
+        /* border-radius: 45%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+
+    a:hover {
+        background-color: #0db84ef5;
+        font-size: 32px;
+        text-decoration: none;
+        font-family: "MULT";
+        color: rgb(255, 255, 255);
+        padding: 12px;
+        width: 430px;
+        border: solid 2px #ffffff;
+        /* border-radius: 45%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+    }
+
+
+    .zveri {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 12px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .zveri img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .instrumenti img {
+        height: 100px;
+        width: 100px;
+        display: flex;
+
+    }
+
+    .instrumenti {
+        margin: 150px;
+    }
+
+    #ball0 img {
+        height: 230px ;
+        width: 235px ;
+    }
+
+    #ball img {
+        height: 200px;
+        width: 205px;
+    }
+
+    #ball1 img {
+        height: 140px;
+        width: 140px;
+    }
+
+    #ball2 img {
+        height: 280px;
+        width: 285px;
+    }
+
+    #ball3 img {
+        height: 150px;
+        width: 155px;
+    }
+
+    #ball4 img {
+        height: 120px;
+        width: 120px;
+    }
+
+    #ball5 img {
+        height: 140px;
+        width: 140px;
+    }
+
+    #ball6 img {
+        height: 140px;
+        width: 140px;
+    }
+
+
+}
